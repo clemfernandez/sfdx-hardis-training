@@ -5,6 +5,7 @@ a day, newest first, and a change goes under the date of the day it is made.
 
 ## 2026-10-05
 
+- Set up my training environment creates your fork again. Its first step always stopped on "The fork could not be created", because the GitHub CLI refuses `--remote=false` once a repository is named, before it even contacts GitHub. When the fork does fail, the panel now shows what the GitHub CLI said above the usual reasons, and Lab 1.2 says to read it.
 - Every screenshot of VS Code was taken again with version 8.10.0 of the extension and 8.13.0 of sfdx-hardis, and its numbered pills put back in place. The GitHub pictures come from a brand new fork.
 - Lab 3.3: the fix Pull Request of US-062 now ships the Crew Leads public group with the sources. Without it, the promotion to UAT of Lab 3.5 ended with a red deployment job, because the group only existed in the org where you created it by hand.
 - Lab 3.6: the promotions to preprod and to production stop red until the email deliverability step is done in each org, ticked, and the check run again. The lab now says so, as Lab 3.5 does.
