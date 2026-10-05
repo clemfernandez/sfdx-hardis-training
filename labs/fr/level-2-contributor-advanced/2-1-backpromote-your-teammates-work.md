@@ -150,9 +150,9 @@ que votre org n'a pas : le backpromote l'apporte, et rien d'autre.
 En dessous, la forme que prennent vos propres stories du Niveau 1 dépend de la façon dont vous êtes
 arrivé au Niveau 2 :
 
-| Vous êtes arrivé au Niveau 2 en | Vos stories du Niveau 1 dans `integration` sont                                                                                                                |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Faisant le Niveau 1             | Des Pull Requests de votre fork, comme **#1 US-014** et **#2 US-016**                                                                                          |
+| Vous êtes arrivé au Niveau 2 en | Vos stories du Niveau 1 dans `integration` sont                                                                                                            |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Faisant le Niveau 1             | Des Pull Requests de votre fork, comme **#1 US-014** et **#2 US-016**                                                                                      |
 | **Reset this level**            | Un seul commit, **chore: the state a level 2 learner starts from**, en général suivi de **Keep my pipeline configuration**, qui garde les noms de vos orgs |
 
 Dans les deux cas, `helios-dev` doit déjà les contenir, parce que le layout de Romain place son champ
