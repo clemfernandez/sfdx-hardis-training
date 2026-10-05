@@ -303,3 +303,43 @@ customCommands:
         tooltip: Removes the Helios app and its data from an org, once you are done with the course
         command: node scripts/training.mjs teardown
         helpUrl: https://sfdx-hardis-training.github.io/en/level-3-release-manager/
+
+# Metadata Retriever presets: query several metadata types at once.
+# Each preset needs an id, a label and a list of Metadata API types.
+# Set metadataRetrieverPresetsOverrideDefaults to true to hide the built-in presets.
+metadataRetrieverPresets:
+  - id: developerMetadata
+    label: Developer Metadata
+    description: Apex, Flows, LWCs and other code metadata
+    types:
+      - ApexClass
+      - ApexTrigger
+      - AuraDefinitionBundle
+      - CustomLabel
+      - CustomMetadata
+      - Flow
+      - LightningComponentBundle
+      - StaticResource
+  - id: generalMetadata
+    label: General Metadata
+    description: Apex, LWC, Objects, fields, validation rules, layouts, profiles and permission sets
+    types:
+      - ApexClass
+      - ApexTrigger
+      - AuraDefinitionBundle
+      - CustomField
+      - CustomLabel
+      - CustomMetadata
+      - CustomObject
+      - FlexiPage
+      - Flow
+      - GlobalValueSet
+      - Layout
+      - LightningComponentBundle
+      - ListView
+      - PermissionSet
+      - PermissionSetGroup
+      - QuickAction
+      - RecordType
+      - StaticResource
+      - ValidationRule
