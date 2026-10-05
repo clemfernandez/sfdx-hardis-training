@@ -59,3 +59,6 @@ mkdocs.yml
 
 # Provider tokens for terminals and agents, never committed
 .env
+
+# Local settings
+.vscode/settings.json
